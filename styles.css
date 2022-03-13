@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -45,11 +45,11 @@ section{
 section .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
 }
 section .title::before{
     content: "";
@@ -77,7 +77,7 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -156,13 +156,13 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
-    height: 100vh;
+    background: url("images/picture-5.jpg") no-repeat center;
+    height: 110vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
 }
 .home .max-width{
   width: 100%;
@@ -190,7 +190,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: rgb(238, 232, 232);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -233,7 +233,7 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: black;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -253,7 +253,7 @@ section .title::after{
 }
 .services .title::before,
 .teams .title::before{
-    background: #fff;
+    background: black;
 }
 .services .title::after,
 .teams .title::after{
@@ -284,7 +284,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: black;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -309,7 +309,7 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: rgb(20, 19, 19);
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -403,7 +403,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
-    border-color: #fff;
+    border-color: black;
 }
 .owl-dots{
     text-align: center;
@@ -492,7 +492,7 @@ section .title::after{
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
+    border-color: black;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
@@ -503,7 +503,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: black;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -529,7 +529,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: rgb(20, 147, 220);
     text-decoration: none;
 }
 footer span a:hover{
